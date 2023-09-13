@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    width: 500px;
+    height: 300px;
+    
+   
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    
+    
+    
+
+}
+.player , .computer{
+    font-size: 30px;
+}
+
+.buttons{
+    display: flex;
+    width: 500px;
+    height: 100px;
+    justify-content: space-around;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    
+    animation: gradient-animation 18s ease infinite;
+
+}
+
+
